@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="./js/all.min.js"></script>
+    <script src="./js/moment.js"></script>
+    <title>Wether app</title>
+</head> 
+<body>
+    <div class="container">
+        <div class="main-section">
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" placeholder="Tìm kiếm thành phố" name="search" class="search-input">
+            </div>
+            <div class="infor-wrapper">
+                <p class="city-name">Hà Nội</p>
+                <p class="weather-state">Mây thưa</p>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather ion" class="weather-icon">
+                <p class="temperature">26</p>
+            </div>
+        </div>
+        <div class="add-section">
+            <div class="row">
+                <div class="item">
+                    <div class="label">MT mọc</div>
+                    <div class="value sunrise">6:16</div>
+                </div>
+                <div class="item">
+                    <div class="label">MT Lặn</div>
+                    <div class="value sunset">6:16</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="label">Độ ẩm</div>
+                    <div class="value"><span class="humidity">73</span>%</div>
+                </div>
+                <div class="item">
+                    <div class="label">Gió</div>
+                    <div class="value"><span class="wind-speed">3</span> km/h</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
